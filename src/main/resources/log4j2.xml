@@ -13,6 +13,7 @@
         </RollingRandomAccessFile>
     </Appenders>
     <Loggers>
+        <Logger name="io.lettuce.core" level="OFF" additivity="false"/>
         <Root level="INFO">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="File"/>
